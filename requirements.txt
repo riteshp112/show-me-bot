@@ -6,3 +6,4 @@ python-telegram-bot
 telegram
 google-search-results
 bs4
+requests_html
