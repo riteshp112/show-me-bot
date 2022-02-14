@@ -1,6 +1,6 @@
-telegram
-google-search-results
-os
-requests
-bs4
-requests_html
+telegram>=1.0.0
+google-search-results>=1.0.0
+os>=1.0.0
+requests>=1.0.0
+bs4>=1.0.0
+requests_html>=1.0.0
