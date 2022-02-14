@@ -1,5 +1,5 @@
 telegram
-serpapi
+google-search-results
 os
 requests
 bs4
