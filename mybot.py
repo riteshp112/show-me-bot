@@ -16,6 +16,7 @@ def text(Update,context):
     link = soup.find("img", {"class":"t0fcAb","src":True})['src']
     #print(link)
     Update.message.reply_photo(link)
+    Update.message.reply(query)
 TOKEN="1619203815:AAFVMcnbJ_dk5W4a0XlEN6s1grx0pDrv8xI"
 updater=Updater(TOKEN,use_context=True)
 dispatcher=updater.dispatcher
