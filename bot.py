@@ -14,7 +14,7 @@ def text(Update,context):
     soup = BeautifulSoup(r.text, "lxml")
     print(soup)
     link = soup.find("img", {"class":"yWs4tf","src":True})['src']
-    #print(link)
+    Update.message.reply(query)
     Update.message.reply_photo(link)
 TOKEN="1619203815:AAFVMcnbJ_dk5W4a0XlEN6s1grx0pDrv8xI"
 updater=Updater(TOKEN,use_context=True)
