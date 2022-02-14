@@ -10,11 +10,11 @@ def text(Update,context):
     query=Update.message.text
     theurl="https://www.google.com/search?q="+query+"&source=lnms&tbm=isch"
     r = requests.get(theurl)
-    print(r)
+    #print(r)
     soup = BeautifulSoup(r.text, "lxml")
-    print(soup)
+    #print(soup)
     link = soup.find("img", {"class":"yWs4tf","src":True})['src']
-    Update.message.reply_text(query)
+    #Update.message.reply_text(query)
     Update.message.reply_photo(link)
 TOKEN="1619203815:AAFVMcnbJ_dk5W4a0XlEN6s1grx0pDrv8xI"
 updater=Updater(TOKEN,use_context=True)
