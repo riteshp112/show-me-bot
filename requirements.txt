@@ -1,6 +1,5 @@
 telegram
 google-search-results
-os
 requests
 bs4
 requests_html
