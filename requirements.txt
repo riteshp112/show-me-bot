@@ -5,3 +5,4 @@ cryptography
 python-telegram-bot
 telegram
 google-search-results
+bs4
