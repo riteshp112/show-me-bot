@@ -1,5 +1,9 @@
+future>=0.16.0
+certifi
+tornado>=5.1
+cryptography
+python-telegram-bot
 telegram
 google-search-results
-requests
 bs4
 requests_html
