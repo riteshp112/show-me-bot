@@ -2,8 +2,7 @@ future>=0.16.0
 certifi
 tornado>=5.1
 cryptography
-python-telegram-bot
-telegram
+python-telegram-bot==13.0.0
 google-search-results
 bs4
 requests_html

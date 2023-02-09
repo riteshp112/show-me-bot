@@ -1,9 +1,6 @@
 from telegram.ext import Updater,CommandHandler,MessageHandler,Filters
-from serpapi import GoogleSearch
-import os
 import requests
 from bs4 import BeautifulSoup
-from requests_html import HTMLSession
 def start(Update,context):
     Update.message.reply_text("What do you want to see")
 def text(Update,context):
